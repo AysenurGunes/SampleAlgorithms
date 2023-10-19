@@ -71,8 +71,19 @@ public class Program
 		#endregion
 
 		#region CountOneBinary
-		CountOneBinary countOneBinary = new CountOneBinary();
-		Console.WriteLine(countOneBinary.CountOnes(510));
+		//CountOneBinary countOneBinary = new CountOneBinary();
+		//Console.WriteLine(countOneBinary.CountOnes(510));
+		#endregion
+
+		#region PositiveCountNegativeSum
+		//double[] doubles = new double[] { 92, 6, 73, -77, 81, -90.5, 99, 8, -85, 34 };
+		//PositiveCountNegativeSum positiveCountNegativeSum = new PositiveCountNegativeSum();
+		//positiveCountNegativeSum.CountPosSumNeg(doubles).ToList().ForEach(item => Console.WriteLine(item));
+		#endregion
+
+		#region ReverseAndNot
+		ReverseAndNot reverseAndNot = new ReverseAndNot();
+		Console.WriteLine(reverseAndNot.ReverseNot(123456789));
 		#endregion
 
 
