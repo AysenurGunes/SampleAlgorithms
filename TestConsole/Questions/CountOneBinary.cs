@@ -15,6 +15,7 @@ namespace TestConsole.Questions
 	{
 		public int CountOnes(int i)
 		{
+			
 			string binary = Convert.ToString(i, 2);
 
 			return binary.Where(x => x == '1').Count();
